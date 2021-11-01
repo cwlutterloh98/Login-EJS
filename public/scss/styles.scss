@@ -1,8 +1,16 @@
 // combine all scss files here
 
+// reset styles
+@import 'reset.scss';
+
 // import utilities
 @import 'utilities/typography',
+		'utilities/wrappers',
 		'utilities/colors';
 
-// import page specifics
-@import 'components/buttons';
+// import page components
+@import 'components/buttons',
+		'components/overlay',
+		'components/hamburger',
+		'components/sidebar';
+		

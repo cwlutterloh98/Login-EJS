@@ -1,0 +1,97 @@
+ <!-- Sidenav -->
+ <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav">
+          <div class="sidebar-header">
+              <div class="sidebar-brand">
+                  <!--Title-->
+                  <a href="#">Clark State EHR</a>
+              </div>
+          </div>
+          <!--Patient Selection-->
+          <li class="dropdown">
+              <a href="#patientSelect" class="dropdown-toggle"  data-toggle="dropdown">Patient Selection<span class="caret"></span></a>
+              <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                      <li><a href="#patientDash">Patient Dashboard</a></li>
+                      <li><a href="#history">History</a></li>
+                      <li><a href="#imaging">Imaging</a></li>
+                      <li><a href="#labs">Labs</a></li>
+                      <li><a href="#care">Care Plan</a></li>
+              </ul>
+           </li>
+          <!--Vitals-->
+          <li class="dropdown">
+              <a href="#vitalSigns" class="dropdown-toggle"  data-toggle="dropdown">Vitals<span class="caret"></span></a>
+              <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                      <li><a href="#vital">Vitals</a></li>
+                      <li><a href="#weight">Weight</a></li>
+                      <li><a href="#pain">Pain</a></li>
+                      <li><a href="#input">Input</a></li>
+                      <li><a href="#output">Output</a></li>
+              </ul>
+           </li>
+           <!--Patient Assessment-->
+           <li class="dropdown">
+              <a href="#patient" class="dropdown-toggle"  data-toggle="dropdown">Patient Assessment<span class="caret"></span></a>
+              <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                      <li class="dropdown"> <!-- take away this li to get to work -->
+                          <!-- Daily Care -->
+                          <a href="#dailyCare" class="dropdown-toggle"  data-toggle="dropdown">Daily Care<span class="caret"></span></a>
+                          <!-- dropdown submenu -->
+                              <ul id=sub class="dropdown-menu">
+                                  <li style="color: white;"><a>Elimination Table</a></li>
+                                  <li style="color: white;"><a>Intake Table</a></li>
+                                  <li style="color: white;"><a>Hygiene Table</a></li>
+                                  <li style="color: white;"><a>Mobility Table</a></li>
+                              </ul>
+                      </li>
+                          <!-- General Head -->
+                          <a href="#general" class="dropdown-toggle"  data-toggle="dropdown">General Head<span class="caret"></span></a>
+                          <!-- dropdown submenu -->
+                              <ul id=sub class="dropdown-menu animated fadeInLeft" role="menu">
+                                  <li style="color: white;"><a>Eye Table</a></li>
+                                  <li style="color: white;"><a>Ears, Nose, Oral Table</a></li>
+                                  <li style="color: white;"><a>Head Table</a></li>
+                              </ul>
+                      
+                   
+                      <!--<li><a href="#cardiovascular">Cardiovascular</a></li>
+                      <li><a href="#perAssess">Peripheral Pulse Assessment</a></li>
+                      <li><a href="#gastro">Gastrointestinal</a></li>
+                      <li><a href="#geni">Genitourinary</a></li>
+                      <li><a href="#inte">Integumentary</a></li>
+                      <li><a href="#muscle">Musculoskeletal</a></li>
+                      <li><a href="#neuro">Neurological</a></li>
+                      <li><a href="#psychosocial">Psychosocial</a></li>
+                      <li><a href="#resp">Respiratory</a></li>
+                      <li><a href="#safety">Safety</a></li>
+                      <li><a href="#infection">Infection</a></li>
+                      <li><a href="#vascular">Vascular</a></li>
+                      <li><a href="#drains">Drains & Tubes</a></li>-->
+              </ul>
+           </li>
+           <!--Order Entry-->
+           <li><a href="#order">Order Entry</a></li>
+           <!--Medication Admin-->
+           <li class="dropdown">
+              <a href="#med" class="dropdown-toggle"  data-toggle="dropdown">Medication Admin<span class="caret"></span></a>
+              <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                      <li><a href="#schedMeds">Scheduled Meds</a></li>
+                      <li><a href="#prn">PRN Meds</a></li>
+                      <li><a href="#continMeds">Continuous Meds</a></li>
+                      <li><a href="#respMeds">Respiratory Meds</a></li>
+                      <li><a href="#discontinMeds">Discontinued Meds</a></li>
+              </ul>
+           </li>
+     </ul>
+ </nav>
+<!-- sidebar-wrapper -->
+
+<!--hamburger nav-->
+<div id="page-content-wrapper">
+    <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+        <span class="hamb-top"></span>
+        <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+    </button>
+</div>
+<!-- hamburger nav -->

@@ -12,19 +12,16 @@ app.use(express.static('public'));
 // Set EJS as templating engine
 app.set('view engine', 'ejs');
 
-
+// get dashboard
 app.get('/', (req, res)=>{
- 
-// The render method takes the name of the HTML
-// page to be rendered as input.
-// This page should be in views folder in
-// the root directory.
-// We can pass multiple properties and values
-// as an object, here we are passing the only name
-
-	res.render('login.ejs', {
+	res.render('dashboard/dashboard.ejs', {
 	});
- 
+});
+
+// get login
+app.get('/login', (req, res)=>{
+	res.render('login/login.ejs', {
+	});
 });
  
  // serve static files
