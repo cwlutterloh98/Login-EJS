@@ -8,9 +8,6 @@
 		'utilities/wrappers',
 		'utilities/colors';
 
-// import page components
-@import 'components/buttons',
-		'components/overlay',
-		'components/hamburger',
-		'components/sidebar';
+// import page blocks
+@import 'blocks/dashboard.scss';
 		

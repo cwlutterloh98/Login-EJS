@@ -17,6 +17,21 @@ app.get('/', (req, res)=>{
 	res.render('dashboard/dashboard.ejs', {
 	});
 });
+app.get('/dashboard', (req, res)=>{
+	res.render('dashboard/dashboard.ejs', {
+	});
+});
+// get general head
+app.get('/general-head', (req, res)=>{
+	res.render('dashboard/general-head.ejs', {
+	});
+});
+
+// get daily care
+app.get('/daily-care', (req, res)=>{
+	res.render('dashboard/daily-care.ejs', {
+	});
+});
 
 // get login
 app.get('/login', (req, res)=>{
